@@ -18,8 +18,7 @@ xkb_symbols "rctrl_switch" {
 };
 
 // The following modifier keys are used to switch to the third shift and to set a
-// corresponding lock, implemented as NumLock.  They do not use *Level5* keysyms,
-// as some applications get confused by it.
+// corresponding lock, implemented as NumLock.
 
 partial modifier_keys
 xkb_symbols "neomod_map" {
