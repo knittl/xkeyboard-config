@@ -4706,6 +4706,24 @@
           <_description>Enter on keypad</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>lv3:caps_switch</name>
+          <description>CapsLock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:bksl_switch</name>
+          <description>&lt;BKSL&gt;-Key</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:lsgt_switch</name>
+          <description>&lt;LSGT&gt;-Key</description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="false">
       <!-- Tweaking the position of the "Ctrl" key -->
@@ -5158,6 +5176,42 @@
           <_description>Enable extra typographic characters</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>shift:both_capslock</name>
+          <description>Both Shift-Keys together toggle CapsLock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>shift:both_capslock_cancel</name>
+          <description>Both Shift-Keys together activate CapsLock, one Shift-Key deactivates</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>shift:both_shiftlock</name>
+          <description>Both Shift-Keys together toggle ShiftLock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:caps_switch_latch</name>
+          <description>CapsLock chooses 3rd level and latches level three when pressed together with another 3rd-level-chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:bksl_switch_latch</name>
+          <description>&lt;BKSL&gt;-Key chooses 3rd level and latches level three when pressed together with another 3rd-level-chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:lsgt_switch_latch</name>
+          <description>&lt;LSGT&gt;-Key chooses 3rd level and latches level three when pressed together with another 3rd-level-chooser</description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Special shortcuts for the Euro character -->
@@ -5187,6 +5241,61 @@
         <configItem>
           <name>eurosign:5</name>
           <_description>5</_description>
+        </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="true">
+      
+      <configItem>
+        <name>lv5</name>
+        <description>5th level options</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>lv5:lsgt_switch_numlock</name>
+          <description>&lt;LSGT&gt;-Key chooses 5th level and toggles level5-Lock when pressed together with another 5th-level-chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:ralt_switch_numlock</name>
+          <description>Right Alt chooses 5th level and toggles level5-Lock when pressed together with another 5th-level-chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:lwin_switch_numlock</name>
+          <description>Left Win chooses 5th level and toggles level5-Lock when pressed together with another 5th-level-chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:rwin_switch_numlock</name>
+          <description>Right Win chooses 5th level and toggles level5-Lock when pressed together with another 5th-level-chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:lsgt_switch_numlock_cancel</name>
+          <description>&lt;LSGT&gt;-Key chooses 5th level and activates level5-Lock when pressed together with another 5th-level-chooser, one press releases the lock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:ralt_switch_numlock_cancel</name>
+          <description>Right Alt chooses 5th level and activates level5-Lock when pressed together with another 5th-level-chooser, one press releases the lock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:lwin_switch_numlock_cancel</name>
+          <description>Left Win chooses 5th level and activates level5-Lock when pressed together with another 5th-level-chooser, one press releases the lock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:rwin_switch_numlock_cancel</name>
+          <description>Right Win chooses 5th level and activates level5-Lock when pressed together with another 5th-level-chooser, one press releases the lock</description>
         </configItem>
       </option>
     </group>
