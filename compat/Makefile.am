@@ -5,7 +5,7 @@ accessx basic complete \
 default iso9995 \
 japan keypad ledcaps \
 lednum ledscroll level5 \
-misc mousekeys norepeat \
+misc mousekeys neo_mods norepeat \
 olpc pc pc98 xfree86 \
 xtest README
 
